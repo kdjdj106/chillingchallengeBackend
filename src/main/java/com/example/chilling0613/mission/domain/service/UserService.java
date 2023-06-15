@@ -83,7 +83,7 @@ public class UserService {
                 List<String> stringAndPath = new ArrayList<>();
                 stringAndPath.add(list1.get(i).getImagePath());
                 stringAndPath.add(list1.get(i).getComment1());
-                stringAndPath.add(list1.get(i).getComment2());
+                //stringAndPath.add(list1.get(i).getComment2());
                 form.setUuid(list1.get(i).getUuid());
                 form.setStringAndPath(stringAndPath);
                 form.setLocalDateTime(list1.get(i).getCreatedDt());
