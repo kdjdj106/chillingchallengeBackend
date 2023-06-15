@@ -39,7 +39,7 @@ public class UserController {
 
         return authService.formSignup(signupRequestDto);
     }
-    @GetMapping("/login/form")
+    @PostMapping("/login/form")
     public ResponseEntity<LoginResponseDto> formLogin(@RequestBody LoginRequestDto requestDto){
 
         return authService.formLogin(requestDto);
