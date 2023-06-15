@@ -107,7 +107,7 @@ public class MissionService {
                 .missionId(missionId)
                 .imagePath(getStringAndPath.get(0).toString())
                 .comment1(getStringAndPath.get(1).toString())
-                .comment2(getStringAndPath.get(2).toString())
+                //.comment2(getStringAndPath.get(2).toString())
                 .user(user)
                 .uuid(UUID.randomUUID().toString())
                 .createdDt(LocalDateTime.now())
