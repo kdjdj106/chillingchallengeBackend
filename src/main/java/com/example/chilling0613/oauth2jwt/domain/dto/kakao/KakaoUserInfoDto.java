@@ -1,9 +1,11 @@
 package com.example.chilling0613.oauth2jwt.domain.dto.kakao;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Properties;
 @Data
+@NoArgsConstructor
 public class KakaoUserInfoDto {
 
     /*
